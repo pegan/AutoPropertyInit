@@ -51,7 +51,7 @@ After object creating.
 
 Piotr Perznowski
 
-- https://github.com/
+- https://github.com/pegan/AutoPropertyInit
 - p.m.perzanowski@gmail.com
 
 ## License
