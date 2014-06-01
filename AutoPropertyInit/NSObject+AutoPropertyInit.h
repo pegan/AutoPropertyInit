@@ -18,34 +18,34 @@
  
  Directly in the designated initializer for the class. It is useful for e.g. in data parser, otherwise is better to use lazy loading.
  
- #import "AutoInit.h"
- #import "NSObject+AutoPropertyInit.h"
+    #import "AutoInit.h"
+    #import "NSObject+AutoPropertyInit.h"
  
- @implementation AutoInit
- - (instancetype)init {
- self = [ super init ];
- if (self) {
- [self pp_autoPropertyInit];
- }
- return self;
- }
- @end
+    @implementation AutoInit
+    - (instancetype)init {
+        self = [ super init ];
+        if (self) {
+            [self pp_autoPropertyInit];
+        }
+        return self;
+    }
+    @end
  
  After object creating.
  
- @interface MyClass : NSObject
- @property (readwrite, strong, nonatomic) NSMutableArray *array;
- @property (readwrite, strong, nonatomic) NSMutableDictionary *dictionary;
- @end
+    @interface MyClass : NSObject
+    @property (readwrite, strong, nonatomic) NSMutableArray *array;
+    @property (readwrite, strong, nonatomic) NSMutableDictionary *dictionary;
+    @end
  
- @implementation DoAutoInit
- - (void)myMethod {
- MyClass *noAutoInit = [[ MyClass alloc ] init];
- [noAutoInit pp_autoPropertyInit];
- noAutoInit.array[0] = @"Some text";
- noAutoInit.dictionary[@"key"] = @"value";
- }
- @end
+    @implementation DoAutoInit
+    - (void)myMethod {
+        MyClass *noAutoInit = [[ MyClass alloc ] init];
+        [noAutoInit pp_autoPropertyInit];
+        noAutoInit.array[0] = @"Some text";
+        noAutoInit.dictionary[@"key"] = @"value";
+    }
+    @end
  
  ## Contact
  
