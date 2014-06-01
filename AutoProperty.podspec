@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.license  = { :type => 'BSD', :file => 'LICENSE' }
   s.homepage = 'https://github.com/pegan/AutoPropertyInit'
   s.summary  = 'AutoPropertyInit is an NSObject category that simplifies the process of initialize properties that are subclasses of NSObject.'
-  s.source   = { :git => 'https://github.com/pegan/AutoPropertyInit', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/pegan/AutoPropertyInit.git', :tag => s.version.to_s }
 
   s.requires_arc = true
 
