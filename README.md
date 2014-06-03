@@ -56,4 +56,4 @@ Piotr Perznowski
 
 ## License
 
-NSObject-AutoPropertyInit is available under the BSD 2-Clause license. See the `LICENSE` file for more info.
+NSObject-AutoPropertyInit is available under the MIT license. See the `LICENSE` file for more info.
