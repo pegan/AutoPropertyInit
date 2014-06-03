@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'AutoProperty'
-  s.version  = '1.0.0'
+  s.version  = '1.0.1'
   s.author   =  { 'Piotr Perzanowski' => 'p.m.perzanowski@gmail.com' }
   s.license  = { :type => 'MIT', :file => 'LICENSE' }
   s.homepage = 'https://github.com/pegan/AutoPropertyInit'
