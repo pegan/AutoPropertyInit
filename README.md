@@ -37,7 +37,7 @@ After object creating.
 @property (readwrite, strong, nonatomic) NSMutableDictionary *dictionary;
 @end
 
-@implementation DoAutoInit
+@implementation MyClass
 - (void)myMethod {
 	MyClass *noAutoInit = [[MyClass alloc] init];
 	[noAutoInit pp_autoPropertyInit];
