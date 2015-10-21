@@ -49,7 +49,7 @@ After object creating.
 
 ## Contact
 
-Piotr Perznowski
+Piotr Perzanowski
 
 - https://github.com/pegan/AutoPropertyInit
 - p.m.perzanowski@gmail.com
